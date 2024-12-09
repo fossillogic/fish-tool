@@ -1,12 +1,12 @@
-# **Fossil Project**
+# **Fossil Tool**
 
-This project template serves as a starting point for creating classic executable projects that can be published as applications on Flatpak and/or via GitHub. It includes the necessary setup, compilation, installation, and running instructions to get your project up and running quickly.
+Fossil Tool is a versatile, cross-platform, command-line utility designed to provide comprehensive monitoring, diagnostics, and management of system resources, processes, network, and hardware health. It is ideal for both system administrators and power users who need an efficient way to monitor their system's health and performance without relying on graphical interfaces. This tool integrates multiple functionalities into a single, unified command-line interface, making it an essential utility for both troubleshooting and proactive monitoring of system status.
 
 ## **Prerequisites**
 
 Ensure you have the following installed before starting:
 
-- **Meson Build System**: This project relies on Meson. For installation instructions, visit the official [Meson website](https://mesonbuild.com/Getting-meson.html).
+- **Meson Build System**: This project relies on Meson for its build process. For installation instructions, visit the official [Meson website](https://mesonbuild.com/Getting-meson.html).
 
 ## **Setting Up Meson Build**
 
@@ -18,8 +18,8 @@ Ensure you have the following installed before starting:
 1. **Clone the Repository**:
 
     ```sh
-    git clone https://github.com/fossillogic/<exe name>.git
-    cd <exe name>
+    git clone https://github.com/fossillogic/fossil-tool.git
+    cd fossil-tool
     ```
 
 2. **Configure the Build**:
@@ -43,16 +43,16 @@ Ensure you have the following installed before starting:
 5. **Run the Project**:
 
     ```sh
-    <exe name>
+    fossil-tool
     ```
 
 ## **Contributing**
 
-Interested in contributing? Please open pull requests or create issues on the [GitHub repository](https://github.com/fossillogic/fossil-app).
+Interested in contributing? We welcome contributions! Please feel free to open pull requests or create issues on the [Fossil Tool GitHub repository](https://github.com/fossillogic/fossil-tool).
 
 ## **Feedback and Support**
 
-For issues, questions, or feedback, open an issue on the [GitHub repository](https://github.com/fossillogic/fossil-app/issues).
+If you encounter issues or have questions, or would like to provide feedback, please open an issue on the [Fossil Tool GitHub repository](https://github.com/fossillogic/fossil-tool/issues).
 
 ## **License**
 
